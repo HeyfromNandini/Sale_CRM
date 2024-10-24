@@ -11,6 +11,7 @@ import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.tooling.preview.Preview
 import project.app.sale_crm.createlead.CreateLead
+import project.app.sale_crm.dashboard.Dashboard
 import project.app.sale_crm.ui.theme.SaleCRMTheme
 
 class MainActivity : ComponentActivity() {
@@ -23,7 +24,7 @@ class MainActivity : ComponentActivity() {
                     modifier = Modifier.fillMaxSize(),
                     color = MaterialTheme.colorScheme.background
                 ) {
-                  CreateLead()
+                Dashboard()
                 }
             }
         }
